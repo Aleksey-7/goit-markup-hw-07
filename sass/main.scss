@@ -9,7 +9,6 @@
 @import './base/container';
 @import './base/section';
 @import './base/subtitle';
-@import './base/card-set';
 
 @import './layouts/header';
 @import './layouts/navigation';
@@ -30,7 +29,7 @@
 /*========= Контент сторінки портфоліо =========*/
 
 @import './components/filter';
-@import './components/product';
+@import './components/gallery';
 
 /*========= Футер сторінки ==========*/
 

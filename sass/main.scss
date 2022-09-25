@@ -1,0 +1,45 @@
+@import './utils/vars';
+@import './base/normalize.scss';
+@import './base/base';
+@import './base/reset';
+
+@import './utils/placeholders';
+@import './utils/mixins';
+
+@import './base/container';
+@import './base/section';
+@import './base/subtitle';
+@import './base/card-set';
+
+@import './layouts/header';
+@import './layouts/navigation';
+@import './layouts/hero';
+@import './layouts/footer';
+@import './layouts/backdrop';
+@import './layouts/modal';
+
+@import './components/logo';
+@import './components/contacts';
+@import './components/primary-btn';
+@import './components/features';
+@import './components/work';
+@import './components/stuff';
+@import './components/social';
+@import './components/clients';
+
+/*========= Контент сторінки портфоліо =========*/
+
+@import './components/filter';
+@import './components/product';
+
+/*========= Футер сторінки ==========*/
+
+@import './components/address';
+@import './components/follow';
+@import './components/subscribe';
+
+/*========  Модальне вікно  =========*/
+
+@import './components/close-btn';
+@import './components/form';
+@import './components/checkbox';

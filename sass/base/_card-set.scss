@@ -1,0 +1,25 @@
+.card-set {
+  @extend %list;
+
+  display: flex;
+  gap: 30px;
+}
+.card-set__item {
+  @include itemSize(1170px, 30px, 4);
+}
+
+.work__item {
+  @include itemSize(1170px, 30px, 3);
+}
+
+.clients__item {
+  @include itemSize(1170px, 30px, 6);
+}
+
+.gallery__card-set {
+  flex-wrap: wrap;
+}
+
+.gallery__item {
+  @include itemSize(1170px, 30px, 3);
+}

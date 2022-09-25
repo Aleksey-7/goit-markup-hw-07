@@ -1,0 +1,14 @@
+.features__content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 25px 100px;
+  border-radius: 4px;
+
+  background-color: #f5f4fa;
+}
+
+.features__text {
+  @include fonts(400, 14px, 1.71, 0.03em);
+}

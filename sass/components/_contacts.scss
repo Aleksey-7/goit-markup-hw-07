@@ -1,0 +1,52 @@
+.contacts {
+  @extend %list;
+
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.contacts--inverse {
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 9px;
+}
+
+.contacts__link {
+  display: flex;
+  align-items: center;
+  padding-top: 32px;
+  padding-bottom: 32px;
+
+  color: $primary-text-color;
+  transition: color $primary-animation;
+
+  @include fonts(500, 14px, 1.14, 0.02em);
+  text-decoration: none;
+
+  &:hover,
+  &:focus {
+    color: $accent-color;
+  }
+}
+
+.contacts__link--inverse {
+  align-items: start;
+  padding: 0;
+
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.contacts__icon {
+  margin-right: 10px;
+
+  fill: $primary-text-color;
+
+  transition: fill $primary-animation;
+
+  .contacts__link:hover &,
+  .contacts__link:focus & {
+    fill: $accent-color;
+  }
+}
